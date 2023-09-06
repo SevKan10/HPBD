@@ -287,8 +287,8 @@
     <style type="text/css"></style><style type="text/css"></style><script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><meta content="clickberry-extension-here"></head>
     
     <body>
-        
-        <audio autoplay>
+
+        <audio autoplay id="myAudio">
             <source src="happy-birthday-to-you-piano-version-13976.mp3" type="audio/mpeg">
             <!-- <source src="/media/epic.wav" type="audio/wav"> -->
           </audio>
@@ -319,6 +319,7 @@
             if (document.location.search.match(/type=embed/gi)) {
                 window.parent.postMessage('resize', "*");
             }
+
         </script>
     
 
